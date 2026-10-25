@@ -1,9 +1,9 @@
-```yaml
 name: Deploy Rural Connect
 
-on:
+"on":
   push:
-    branches: ["main"]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -51,4 +51,3 @@ jobs:
       - name: Deploy website
         id: deployment
         uses: actions/deploy-pages@v4
-```
