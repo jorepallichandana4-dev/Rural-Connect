@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #1a2e1d;
+    background-color: #f7faf8;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom agricultural green palette accents and smooth transitions */
+.bg-agro-pattern {
+  background-color: #f3f7f4;
+  background-image: radial-gradient(#d1e7d8 0.75px, transparent 0.75px), radial-gradient(#d1e7d8 0.75px, #f3f7f4 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}

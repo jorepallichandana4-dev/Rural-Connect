@@ -1,0 +1,6 @@
+{
+  "name": "Rural Connect",
+  "description": "Rural Connect – Smart Support for Every Farmer. Connect farmers with agricultural service providers across rural India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
