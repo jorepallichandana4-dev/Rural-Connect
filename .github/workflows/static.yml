@@ -1,3 +1,4 @@
+```yaml
 name: Deploy Rural Connect
 
 on:
@@ -27,7 +28,7 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: npm install --legacy--peer-deps
+        run: npm install --legacy-peer-deps
 
       - name: Build Vite app
         run: npm run build
@@ -50,3 +51,4 @@ jobs:
       - name: Deploy website
         id: deployment
         uses: actions/deploy-pages@v4
+```
